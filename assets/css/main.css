@@ -3767,7 +3767,6 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
-		display: none;
 	}
 
 		@media screen and (max-width: 480px) {
@@ -3835,6 +3834,12 @@ input, select, textarea {
 		to {
 			transform: translateY(0%);
 		}
+	}
+
+	#profileImage{
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
 	}
 
 	

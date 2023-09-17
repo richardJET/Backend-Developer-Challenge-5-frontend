@@ -1,3 +1,5 @@
+document.getElementById('wrapper').style.display = 'none';
+
 setTimeout(() => {
 
     document.querySelector('.loader').style.display = 'none';

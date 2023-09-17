@@ -13,7 +13,6 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -26,16 +25,16 @@
 				<!-- Main -->
 					<div id="main">
 
-						<form method="POST" action="register.php">
+						<form method="POST" action="http://localhost:3001/register">
 							
-							<label for="display_name">Display Name:</label>
-							<input type="text" name="display_name" id="display_name" required>
+							<label for="displayName">Display Name:</label>
+							<input type="text" name="displayName" id="displayName" required>
 						
 							<label for="email">Email:</label>
 							<input type="email" name="email" id="email" required  placeholder="Email">
 						
 							<label for="password">Password:</label>
-							<input type="password" name="password" id="password" required>
+							<input type="password" name="password" id="password" required minlength="6">
 						
 							<button type="submit">Sign Up</button>
 						</form>
